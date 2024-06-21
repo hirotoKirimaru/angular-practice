@@ -49,7 +49,9 @@
       <h1>Hello, {{ title }}</h1>
       <p>Congratulations! Your app is running. 🎉</p>
 
-      <input>
+      <input type="email" [formControl]="emailControl">
+
+      <input type="text" [formControl]="nameOrEmailControl">
 
     </div>
     <div class="divider" role="separator" aria-label="Divider"></div>
