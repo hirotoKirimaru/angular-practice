@@ -1,7 +1,7 @@
 import { bootstrapApplication } from "@angular/platform-browser";
-import { appConfig } from "./app/app.config";
-import { AppComponent } from "./app/app.component";
 import * as Sentry from "@sentry/angular-ivy";
+import { AppComponent } from "./app/app.component";
+import { appConfig } from "./app/app.config";
 
 Sentry.init({
 	dsn: "https://b3b9c7fb5b9e6077955d96b930818a15@o4507057023811584.ingest.us.sentry.io/4507063087726592",

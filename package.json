@@ -7,7 +7,8 @@
     "build": "node_modules/.bin/ng build",
     "watch": "node_modules/.bin/ng build --watch --configuration development",
     "test": "node_modules/.bin/ng test",
-    "lint": "ng lint"
+    "lint_ng": "ng lint",
+    "lint": "npx @biomejs/biome check --write ./src"
   },
   "private": true,
   "dependencies": {

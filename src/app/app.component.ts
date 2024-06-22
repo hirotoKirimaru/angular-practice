@@ -1,6 +1,5 @@
-import { Component, Input, type OnInit } from "@angular/core";
 import { CommonModule } from "@angular/common";
-import { RouterOutlet } from "@angular/router";
+import { Component, Input, type OnInit } from "@angular/core";
 import {
 	FormControl,
 	FormGroup,
@@ -8,6 +7,7 @@ import {
 	ReactiveFormsModule,
 	Validators,
 } from "@angular/forms";
+import { RouterOutlet } from "@angular/router";
 import { debounceTime, distinctUntilChanged } from "rxjs";
 
 @Component({
