@@ -20,7 +20,7 @@
     "@angular/platform-browser": "^19.2.3",
     "@angular/platform-browser-dynamic": "^19.2.3",
     "@angular/router": "^19.2.3",
-    "@sentry/angular-ivy": "^7.120.3",
+    "@sentry/angular": "^9.8.0",
     "angularx-qrcode": "^19.0.0",
     "rxjs": "~7.8.2",
     "tslib": "^2.8.1",

@@ -1,5 +1,5 @@
 import { bootstrapApplication } from "@angular/platform-browser";
-import * as Sentry from "@sentry/angular-ivy";
+import * as Sentry from "@sentry/angular";
 import { AppComponent } from "./app/app.component";
 import { appConfig } from "./app/app.config";
 
